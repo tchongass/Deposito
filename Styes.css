@@ -66,4 +66,8 @@
   .header-right {
     float: none;
   }
+  .article{
+  padding: 0px 10px;
+  overflow-wrap: break-word;
+} 
 }

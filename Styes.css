@@ -26,6 +26,7 @@
 /* Change the background color on mouse-over */
 
 .article{
+  padding: 0px 60px;
   overflow-wrap: break-word;
 } 
 

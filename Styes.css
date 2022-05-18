@@ -1,19 +1,19 @@
 /* Style the header with a grey background and some padding */
 body {
-  background-color: black;
+  background-image: url("https://preview.redd.it/g66r5oi2tg641.jpg?width=960&crop=smart&auto=webp&s=e6b820b1dd3ca64609d46416186739b4d086ed33");
 }
 
 .header {
   overflow: hidden;
-  background-color: #873200;
+  background-color: #095ce3;
   padding: 0px 0px;
 }
 
 /* Style the header links */
 .header a {
   float: left;
-  color: white;
-  color: black;
+  color: #00e878;
+  color: #004725;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -25,9 +25,9 @@ body {
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
   font-size: 25px;
-  color: white;
+  color: #00e878;
+  float: left;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 /* Change the background color on mouse-over */
@@ -71,7 +71,7 @@ body {
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: #520000;
+  background-color: #004725;
   color: white;
 }
 
@@ -85,11 +85,20 @@ body {
   .header a {
     float: left;
     display: block;
+    padding-left: 200px;
     text-align: Center;
   }
   .header-right {
     float: right;
   }
+
+  .logo {
+  font-size: 25px;
+  color: #00e878;
+  float: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
   .article{
   padding: 0px 10px;
@@ -118,10 +127,10 @@ body {
 /* The side navigation menu */
 .sidebar {
   margin: 0;
-  color: white;
+  color: #00e878;
   padding: 0;
   width: 200px;
-  background-color: #873200;
+  background-color: #095ce3;
   position: absolute;
   height: 1000px;
   overflow: auto;
@@ -130,21 +139,22 @@ body {
 /* Sidebar links */
 .sidebar a {
   display: block;
-  color: white;
+  color: #00e878;
   padding: 16px;
+  font-weight: bold;
   text-decoration: none;
 }
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #520000;
+  background-color: #004725;
   color: white;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: red;
+  background-color: #0220b5;
+  color: #00e878;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
@@ -191,5 +201,12 @@ div.content {
   .sidebar a {
     text-align: center;
     float: none;
+  }
+
+  .header a {
+    float: left;
+    display: block;
+    padding-left: 120px;
+    text-align: Center;
   }
 }
